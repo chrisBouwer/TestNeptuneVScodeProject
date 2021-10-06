@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"module": "CommonJS",
+		"jsx": "react",
+		"esModuleInterop": true,
+		"target": "ES2018",
+		"allowJs": true,
+		"baseUrl": "src",
+		"rootDir": ".",
+		"paths": {
+			"planet9-internal/*": [
+				"../.planet9/apis/*"
+			],
+		},
+	},
+
+	"include": [
+		"src/**/*",
+		".planet9/apis/**/*"
+	]
+}

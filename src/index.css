@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.App-header {
+    display: flex;
+    font-size: calc(5px + 2vmin);
+}
+
+.Title {
+    font-size: calc(20px + 2vmin);
+    text-decoration: underline;
+}
+
+.Pet-list {
+    width: 40%;
+    margin: 0%;
+    float: left;
+}
+
+.Pet-details {
+    width: 50%;
+    float: right;
+    position: fixed;
+    margin: 0%;
+}
+
+.Item:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
